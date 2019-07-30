@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  background-color: orange;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+body {
+  background-color: green;
+}
+
+nav a:hover {
+  background-color: green;
+}
+
+.text-box {
+  padding: 50px;
+}
+
+.areas {
+  padding: 25px;
+  background-color: red;
+}
+
+@media only screen and (min-width: 768px ) {
+  body {
+    background-color: pink;
+  }
+}
